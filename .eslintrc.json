@@ -1,0 +1,18 @@
+{
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es2021": true
+  },
+  "extends": "airbnb-base",
+  "overrides": [],
+  "parserOptions": {
+    "ecmaVersion": "latest"
+  },
+  "rules": {
+    /*eslint-env es6
+    eslint linebreak-style": ["error", "windows"],
+    eslint quotes: ["error", "single"] */
+    "no-console": "off"
+  }
+}
